@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from streamlit.connections import GSheetsConnection
+from streamlit_gsheets import GSheetsConnection
 import plotly.express as px
 import plotly.graph_objects as go
 
