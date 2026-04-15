@@ -40,7 +40,7 @@ st.markdown("""
 
 # --- DATA FETCHING & CLEANING ---
 # Paste your public Google Sheet URL here (replacing the one below)
-SHEET_URL = "https://docs.google.com/spreadsheets/d/18Ixbmk-vMsCMZtY88LlgER-PiL7Dd2tGI6djyJwcI3M/edit?usp=sharing"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/18Ixbmk-vMsCMZtY88LlgER-PiL7Dd2tGI6djyJwcI3M/edit?gid=1525910319#"
 
 @st.cache_data(ttl=600) # Cache data for 10 minutes to improve performance
 def get_and_clean_data(url):
